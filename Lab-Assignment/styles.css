@@ -1,0 +1,64 @@
+body {
+    background-color: dimgrey;
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 2px solid #c5bcbc;
+    padding: 50px 50px 50px 50px;
+
+}
+
+.container h1 {
+    background-color: rgb(18, 185, 18);
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 2px;
+}
+
+.container #question {
+    color: #309cf5;
+    font-size: 35px;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #309cf5;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid  #297cbf;
+    margin: 10px 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #297cbf;
+} 
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    text-align: center;
+}
+
+#score {
+    color: #297cbf;
+    text-align: center;
+    font-size: 30px;
+}
